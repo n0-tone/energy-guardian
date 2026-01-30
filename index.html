@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="Welcome to Energy Guardian, no-tone's phaser built game!"
+    />
+    <meta name="author" content="no-tone" />
+    <link rel="icon" type="image/x-icon" href="./assets/logo/favicon.ico" />
+    <title>energy-guardian</title>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        height: 100vh;
+      }
+      #game-container {
+        width: 100%;
+        max-width: 800px;
+        max-height: 600px;
+      }
+    </style>
+    <script src="phaser/phaser.min.js"></script>
+    <script type="module" src="index.js"></script>
+  </head>
+  <body>
+    <main>
+      <div id="game-container"></div>
+    </main>
+  </body>
+</html>
